@@ -14,13 +14,12 @@ public class ApplicationTest {
 
     User user = new User("David", "Orelowitz");
     assertEquals("David Orelowitz", user.getFullName());
-  };
+  }
 
   @Test
   public void MockStubTest(){
     User userMock = mock(User.class);
     when(userMock.getFullName()).thenReturn("David Orelowitz");
-
     assertEquals("David Orelowitz", userMock.getFullName());
   }
 
