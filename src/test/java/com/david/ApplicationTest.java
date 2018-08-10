@@ -22,5 +22,4 @@ public class ApplicationTest {
     when(userMock.getFullName()).thenReturn("David Orelowitz");
     assertEquals("David Orelowitz", userMock.getFullName());
   }
-
 }
