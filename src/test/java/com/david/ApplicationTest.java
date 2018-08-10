@@ -29,5 +29,6 @@ public class ApplicationTest {
 
     verify(userMock, times(3)).getFullName();
     verify(userMock, times(0)).setFirstName("David");
+
   }
 }
